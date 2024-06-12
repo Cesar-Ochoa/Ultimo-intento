@@ -1,0 +1,42 @@
+# Dependencias de Node.js
+node_modules/
+# Salidas de compilación
+ios/build/
+android/app/build/
+# Directorios de archivos de paquetes
+*.pack/
+# Directorios de archivos de logs
+*.log/
+# Archivos de configuración de Metro
+.expo/
+# Archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+# Archivos de entorno
+.env
+# Archivos de caché
+.nyc_output/
+coverage/
+.idea/
+.vscode/
+.gradle/
+# Archivos de builds de iOS
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+# Archivos generados por CocoaPods
+ios/Pods/
+# Archivos de configuración de Xcode
+xcuserdata/
+# Archivos de builds de Android
+build/
+# Archivos generados por npm
+package-lock.json
+yarn.lock
+# Archivos de IntelliJ
+*.iml
