@@ -2,10 +2,10 @@
   "extends": "@react-native/typescript-config/tsconfig.json",
     "compilerOptions": {
       "target": "esnext",
-      "module": "commonjs",
+      "module": "preserve",
       "strict": true,
       "jsx": "react",
-      "moduleResolution": "node",
+      "moduleResolution": "bundler",
       "esModuleInterop": true,
       "skipLibCheck": true,
       "allowSyntheticDefaultImports": true,
